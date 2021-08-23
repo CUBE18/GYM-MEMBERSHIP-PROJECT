@@ -212,7 +212,7 @@ def memenu():
     print("\nEnter your choice: ")
 
 
-membermenu()
+memenu()
 while (True):
     option = int(input())
     if option == 1:
@@ -249,4 +249,4 @@ while (True):
 
     else:
         print("Please enter a valid number!!")
-    membermenu()
+    memenu()
